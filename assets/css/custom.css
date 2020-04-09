@@ -1,0 +1,43 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #343a40;
+	color: #FFFFFF;
+}
+
+.nav.nav-masthead.justify-content-center a {
+	color: #FFFFFF;
+}
+
+.nav.nav-masthead.justify-content-center a:hover {
+	color: #EFEFEF;
+}
+
+.f1 {
+	color: #8f8f84;
+	padding-right: 20px;
+}
+
+.f2 {
+	border-top: 8px solid;
+	border-color: #000000;
+}
+
+.f3 {
+	border-top: 8px solid;
+	border-color: #FF0000;
+}
+
+#adobe-dc-view {
+	height: 1200px;
+	width: 70%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amish Dhandhukia
+    </title>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("adobe_dc_view_sdk.ready", function() {
+			var adobeDCView = new AdobeDC.View({
+				clientId: "c8a692ef006c41be83a1fd59ede8cb84",
+				divId: "adobe-dc-view"
+			});
+			adobeDCView.previewFile({
+				content: {
+					location: {
+						url: "assets/docs/Amish's Resume_7_April_2020.pdf"
+					}
+				},
+				metaData: {
+					fileName: "Resume.pdf"
+				}
+			}, {
+				embedMode: "SIZED_CONTAINER",
+				dockPageControls: false,
+				showDownloadPDF: false,
+				showPrintPDF: false,
+				showFullScreen: true
+			});
+		});
+	</script>
+</head>
+
+<body class="text-center">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="https://amish-d.github.io/">Amish Dhandhukia</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+	  <li class="nav-item">
+        <a class="nav-link" href="https://amish-d.github.io/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="resume.html">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+	<br><br>
+    <div class="main">
+        <div class="d1">
+            <!--<embed src="resource/Amish's Resume_30_Mar_2020.pdf" type="application/pdf" width="70%" height="470px" />-->
+            <div id="adobe-dc-view"></div>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <div class="f1" align="right">
+            &copy; 2020
+        </div>
+        <div class="f2">
+        </div>
+        <div class="f3">
+        </div>
+    </footer>
+</body>
+
+</html>
