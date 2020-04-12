@@ -19,12 +19,12 @@ body {
 }
 
 .f2 {
-	border-top: 8px solid;
+	border-top: 7px solid;
 	border-color: #000000;
 }
 
 .f3 {
-	border-top: 8px solid;
+	border-top: 6px solid;
 	border-color: #FF0000;
 }
 
@@ -40,4 +40,78 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.item {
+    width: 95%;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 0px;
+    min-height: 220px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f0f0f0;
+}
+
+.project-image {
+	padding-top:30px;
+	padding-right:20px;
+	width: 250px;
+	height:auto;
+}
+
+.project-content {
+	/*padding-top:10px;
+	width: 220px;
+	height:170px;*/
+	float:left;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.row {
+	display: flex;
+flex-wrap: wrap;
+margin-right: 15px;
+margin-left: 15px;
+}
+
+.item-content {
+	padding-left: 15px !important;
+	padding-right: 10px !important;
+	margin-top: 10px !important;
+	padding-left: 15px !important;
+}
+
+.item-spec {
+	text-align: center !important;
+	padding-top: 20px;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 15px;
+}
+
+.badge-dark:focus {
+  background-color: #fff;
 }
